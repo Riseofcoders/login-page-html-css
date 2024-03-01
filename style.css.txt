@@ -1,0 +1,200 @@
+.madimi-one-regular {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+
+    font-family: madimi one;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    min-height: 500vh;
+
+    background-image: url("gradientback.jpg"); /* Replace with your background image */
+
+    background-size: cover;
+
+    background-position: center;
+
+}
+
+.container {
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    color: #fff;
+
+}
+
+.title {
+
+    text-align: center;
+
+    margin-bottom: 20px;
+
+}
+
+h1 {
+
+    font-size: 2em;
+
+}
+
+p {
+
+    font-size: 1.2em;
+
+}
+
+form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+.input-group {
+
+    margin-bottom: 15px;
+
+}
+
+label {
+
+    display: block;
+
+    margin-bottom: 5px;
+
+}
+
+input[type="text"],
+
+input[type="password"] {
+
+    padding: 10px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 50px;
+
+    width: 250px;
+
+}
+
+button {
+
+    background-color: #004cff;
+
+    color: #fff;
+
+    padding: 10px 20px;
+
+    border: none;
+
+    border-radius: 50px;
+body {
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("space-background.jpg"); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Added box shadow */
+    animation: container-scale 0.5s ease-in-out forwards; /* Added animation for container */
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    animation: title-bounce 1s ease-in-out infinite alternate; /* Added animation for title */
+}
+
+p {
+    font-size: 1.2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    width: 250px;
+    animation: input-glow 1s ease-in-out infinite alternate; /* Added animation for inputs */
+}
+
+button {
+    background-color: #0011ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 200px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0067cc;
+}
+
+#error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Animations */
+
+@keyframes container-scale {
+    from { transform: scale(0.8); }
+    to { transform: scale(1); }
+}
+
+@keyframes title-bounce {
+    from { transform: translateY(0px); }
+    to { transform: translateY(-10px); }
+}
+
+@keyframes input-glow {
+    from { box-shadow: 0 0 0px rgba(0, 0, 255, 0.2); }
+    to { box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); }
+}
